@@ -27,7 +27,7 @@ export default async function handler(req, res) {
         port: 587,
         secure: false, 
         auth: {
-          user: process.env.EMAIL_USER, 
+          user: process.env.EMAIL_USER, // xD
           pass: process.env.EMAIL_PASS, 
         },
         tls: {
